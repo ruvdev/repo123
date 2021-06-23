@@ -1,0 +1,203 @@
+root{
+    azul :#002c5f ;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(50, 12, 5) ;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.inline-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+       
+}
+.contenedor-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+
+ header .inline-header .media-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+li{
+    display: inline-block;
+    color:#320c05 ;
+    display: flex;
+    
+
+}
+
+li a{
+    text-decoration: none ;
+    color:#320c05 ;
+    margin: 4px;
+    font-weight: bold;
+    
+}
+
+.circle{
+
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+i{
+    font-size: 20px;
+}
+
+.nav{
+    background: #ffb832;
+    height: 55px;
+}
+.nav .menu{
+    
+    background: #ffb832;
+    height: 55px;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.nav .menu .menu-li{
+    display: inline-block;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.menu-li{
+ padding-left: 30px;
+ 
+}
+
+
+.car{
+    
+    background-image: url(../img/sanwish-car.jpg);
+    background-position: cover;
+    background-size: cover;
+    display: block;
+    width: 1300px;
+    max-width: 1300px;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+      
+}
+
+
+
+.panel{
+    word-wrap: break-word;
+    box-shadow: 0 -10px 10px rgba(0,0,0,0.1);
+    border: 2px solid rgba(73, 91, 102, 0.2);
+    padding: 20px 20px 20px 20px;
+    color: white;       
+    width: 350px;
+    height: 540px;
+    background-color: rgba(50, 12, 5, 0.8);
+    text-align: center;
+    padding-top: 70px;
+    position: absolute;
+    
+
+}
+
+.of1{
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.oferta{
+    font-size: 150px;
+    color:#320c05;
+    font-weight: bold;
+    -webkit-text-stroke: 6px white;
+}
+
+.boton-panel{
+    width: 130px;
+    height: 45px;
+    border-radius: 4px;
+    position: relative;
+    background: white ;
+    color: #320c05 ;
+    font-weight: bold ;
+}
+.boton-panel::after{
+    content: '';
+    position: absolute;
+    display: block;        
+    border-top: 20px solid white;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    right: calc(50% - 20px);
+
+
+}
+
+.c{
+    margin-top: 50px;
+}
+
+
+.f{
+    color:#320c05;
+    font-weight: bold;
+}
+
+.aside{
+
+    background: #e2e0e2;
+    color: #320c05;
+    height: 500px;
+}
+
+footer{
+    background: #ffb832;
+    color:#320c05;
+    height: 30px;
+    width: 100%;
+
+}
